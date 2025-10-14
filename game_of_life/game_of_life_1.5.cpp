@@ -220,6 +220,9 @@ int main()
 
     delete grille_modif;
     delete grille;
+    grille_modif = nullptr;
+    grille = nullptr;
 
     return 0;
 }
+
